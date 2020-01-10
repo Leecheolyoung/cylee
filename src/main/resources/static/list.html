@@ -8,9 +8,10 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="/webjars/bootstrap/4.4.1/css/bootstrap.min.css" >
 
-    <title>SLIP</title>
+    <title>사용자목록</title>
   </head>
   <body>
+    <h1>회원가입</h1>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
 	  <a class="navbar-brand" href="#">SLIP</a>
 	
@@ -24,8 +25,32 @@
 	    
 	  </div>
 	</nav>
+	
+	<div class="container">
+		<table class="table table-condensed">
+			<caption>사용자 목록</caption>
+			<thead>
+				<tr>
+					<th>사용자 아이디</th>
+					<th>이름</th>
+					<th>이메일</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<th scope="row">jeremy</th>
+					<td>이철영</td>
+					<td>jeremy@slip.co.kr</td>
+				</tr>
+				<tr>
+					<th scope="row">hongil</th>
+					<td>홍길동</td>
+					<td>hongil@slip.co.kr</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
     
-
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="/webjars/jquery/3.4.1/jquery-3.4.1.slim.min.js"></script>
