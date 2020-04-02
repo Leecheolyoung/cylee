@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 
 @Controller
 public class WelcomeController {
-	@GetMapping("/helloworld")
+	@GetMapping("/nexacroTest")
 	/*
 	public String welcome(String name, int age, Model model) {
 		System.out.println("name : "+name+"age :"+ age);
@@ -23,6 +23,6 @@ public class WelcomeController {
 		List<MyModel> repo = Arrays.asList(new MyModel("cylee1"), new MyModel("cylee2"), new MyModel("cylee3"));
 		model.addAttribute("repo",repo);
 		
-		return "welcome";
+		return "nexacroTest";
 	}
 }
