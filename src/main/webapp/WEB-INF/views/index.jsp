@@ -8,10 +8,10 @@ pageEncoding="UTF-8"%>
 		<title>Spring Boot Jsp </title>
 	</head>
 	<body>
-		<h1>Hello Spring Boot!</h1>
+		<h1>Hello Spring Boot JSP!</h1>
 		 <pre>
 		 <%
-		 new com.nexacro17.xapi.util.JarInfo().info(out);
+		 //new com.nexacro17.xapi.util.JarInfo().info(out);
 		 %>
 		 </pre>
 	</body>
